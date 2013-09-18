@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.movie_container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.movie_holder{
+	width: 900px;
+	height: 200px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.thumb{
+	width: 125px;
+	float: left;
+	background-color: #feffae;
+	height: 200px;
+	border-radius: 40px 0 0 40px;
+}
+.title{
+	width: 575px;
+	float: left;
+	background-color: #b083ef;
+	height: 200px;
+}
+.year{
+	width: 175px;
+	float: left;
+	height: 200px;
+	background-color: #feffae;
+    border-radius: 0 40px 40px 0;
+	
+}
+.movie_holder img{
+
+	 height: 91px;
+    margin: 0 auto;
+   padding: 46px 32px 32px;
+    width: 61px;
+}
+.movie_title{
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+.synopsis{
+	font-size: 16px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: justify;
+    width: 500px;
+	
+}
+.year {
+	font-size: 22px;
+	   padding: 74px 35px 35px;
+	
+}
+#result{
+	width: 1000px;
+	
+}
+#resultleft{
+	width: 700px;
+	float: left;
+	font-size: 22px;
+}
+#resultright{
+	width: 300px;
+	float: left;
+	font-size: 22px;
+}
+#movie{
+	font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    height: 35px;
+    text-align: center;
+    width: 820px;
+}
+#send{
+	margin-top: -10px;
+}
